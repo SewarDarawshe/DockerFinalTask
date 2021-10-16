@@ -18,7 +18,7 @@ pipeline {
 
             steps { 
 
-                git 'https://github.com/SewarDarawshe/DockerFinalTask.git' 
+              git branch: 'main', url: 'https://github.com/SewarDarawshe/DockerFinalTask.git'
 
          }
 
