@@ -76,5 +76,21 @@ https://hub.docker.com/repository/docker/sewardrawshe/dockerfinaltask
 
 
 
-## ✨Jenkinsfile :
+## ✨Jenkinsfile & Dockerhub :
+
+>Docker must be installed on the Jenkins server, for more info use this link : https://docs.docker.com/engine/install/ubuntu/
+
+>you must also link and add your Docker credentials in Jenkins.
+(your dockerhub username and one of the  Access Tokens as password).
+
+This is a Master job pipeline, that clones my repository from Github, builds an image, and pushes it to the douckerhub.
+
+![Screenshot](https://github.com/SewarDarawshe/DockerFinalTask/blob/main/screenshots/jenkins.png)
+
+## 
+##
+
+![Screenshot](https://github.com/SewarDarawshe/DockerFinalTask/blob/main/screenshots/dockerhub.png)
+
+
 
