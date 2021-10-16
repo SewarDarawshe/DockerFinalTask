@@ -38,19 +38,6 @@ pipeline {
 
 
 
-        stage('Publish image to Docker Hub') {
-          
-            steps {
-        withDockerRegistry([ credentialsId: "dockerhub_id", url: "" ]) {
-          sh  'docker push sewardrawshe/dockerfinaltask:webapp'
-          sh  'docker push sewardrawshe/dockerfinaltask:$BUILD_NUMBER' 
-        }
-                  
-          }
-        }
-      
-
-    }
 
 
 
