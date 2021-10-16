@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Node App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSSStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Bitcoin summary (USD)</h1>
+        <br>
+        <h2 class="header">-Current Bitcoin Price :</h2>
+        <br>
+        <h3 class="message">{{messageNow}} </h3>
+        <br>
+
+        <h2 class="header">-Average Price for the last 10 minutes:</h2>
+        <br>
+        <h3 class="message">{{messageAvg}}</h3>
+        <br>
+    </div>
+</body>
+
+</html>
